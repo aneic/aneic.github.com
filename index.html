@@ -1,33 +1,45 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>ANEIC by aneic</title>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="ANEIC : " />
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>ANEIC</title>
   </head>
+
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>ANEIC</h1>
-        <p></p>
 
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/aneic">View on GitHub</a>
 
-        <p class="view"><a href="https://github.com/aneic">View My GitHub Profile</a></p>
+          <h1 id="project_title">ANEIC</h1>
+          <h2 id="project_tagline"></h2>
 
-      </header>
-      <section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
         <h3>Ancient Near-East Ivory Clustering</h3>
 
 <p>This code identifies stylistically similar groups in a corpus of Levantine ivory statuettes using maximum likelihood and maximum posterior clustering. </p>
 
-<p>Data may be read from a CSV file. Each row is interpreted as a separate observation. Numerical columns are assumed to be real-valued, string-valued columns are assumed to be categorical.</p>
+<p><img src="https://raw.github.com/aneic/aneic.github.com/non-auto/images/sample_objects.png" alt="Example Objects"></p>
+
+<p>While this code has been written with the application to art historical data in mind, it may be used generally to perform clustering data with a combination of categorical and real-valued features, where some features may be missing. Data may be read from a CSV file. Each row is interpreted as a separate observation. Numerical columns are assumed to be real-valued, string-valued columns are assumed to be categorical.</p>
+
+<h3>Read the Code</h3>
+
+<p>The repository <a href="https://github.com/aneic/aneic-core">aneic-core</a> contains the sources for the statistical algorithm, as well as the levantine corpus dataset.</p>
+
+<p>The repository <a href="https://github.com/aneic/aneic-scripts">aneic-scripts</a> contains support code needed in order to perform analysis of the Levantine corpus. </p>
 
 <h3>Example Usage</h3>
 
@@ -39,13 +51,22 @@
 
 <h3>License</h3>
 
-<p>This project is both open data and open source. The levantine corpus dataset copyright is (c) 2013 Amy Gansell. It is distributed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. The source code is under MIT license. See license documentation in each repository for further information.</p>
+<p>This project is both open data and open source. </p>
+
+<p>The <a href="https://github.com/aneic/aneic-core/tree/master/data">levantine corpus</a> dataset is copyright 2013 Amy Gansell (<a href="https://github.com/amygansell" class="user-mention">@amygansell</a>). It is distributed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>. </p>
+
+<p>The source code is copyright 2013 Jan-Willem van de Meent (<a href="https://github.com/jwvdm" class="user-mention">@jwvdm</a>) and Sakellarios Zairis (<a href="https://github.com/szairis" class="user-mention">@szairis</a>). It is distributed under <a href="https://github.com/aneic/aneic-core/blob/master/src/mit-license.txt">MIT license</a>. </p>
       </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+
     
+
   </body>
 </html>
