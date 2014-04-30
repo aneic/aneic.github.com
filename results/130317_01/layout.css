@@ -33,3 +33,17 @@ td {
 img {
     max-width: 256px;
 }
+
+#footer {
+	width: 80em;
+	border-top-style: solid;
+	border-top-width: 1px;
+	margin-top: 2em;
+	padding-top: 1em;
+	color: #666;
+	font-size: 80%;
+}
+
+#footer > p {
+	margin-bottom: 1em;
+}

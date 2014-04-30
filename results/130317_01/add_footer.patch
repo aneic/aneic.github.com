@@ -1,0 +1,24 @@
+diff --git results/130317_01/130317_01_K02.html results/130317_01/130317_01_K02.html
+index e4d185b..efaa27d 100644
+--- results/130317_01/130317_01_K02.html
++++ results/130317_01/130317_01_K02.html
+@@ -1,6 +1,12 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
++    <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
++    <script>
++    $(function(){
++      $("#footer").load("footer.html");
++    });
++    </script>
+     <link rel="stylesheet" type="text/css" href="layout.css"/>
+ </head>
+ <body>
+@@ -2277,5 +2283,6 @@
+             </td>
+         </tr>
+     </table>
++    <div id="footer"></div>
+ </body>
+ </html>
